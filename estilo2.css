@@ -1,0 +1,156 @@
+*{
+    margin: 0;
+    
+}
+body{
+    background: linear-gradient(90deg, #a0dec3, #3eadcf);
+}
+.header{
+    
+    padding: 0.8rem;
+    text-align: center;
+    color: #fff;
+    font-size: 1.3rem;
+    text-shadow: black 0.2em 0.2em 0.7em;
+}
+.contenedor{
+    background-color: #99CCF5;
+    border-radius: 1rem;
+    border: double 2px #2F4858;
+    box-shadow: 6px 15px 25px 2px;
+    margin: auto;
+    padding:1.8rem;
+    min-height: 25rem;  
+    width: 40rem;
+    display:flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 1rem;
+    
+}  
+.contenedor div{
+    /* background-image:url("../fotos.S/fondo.jpg"); */
+    background-color: #6296BC;
+    border: double 1px #2F4858;
+    border-radius: 10px;
+    height: 8.5rem;
+    width: 8rem;
+    background-repeat:round;
+}
+.mostrando{
+    
+    height: 8.5rem;
+    border-radius: 10px;
+    width: 8rem;
+    object-fit:fill;
+    opacity: 0;
+   position: relative;
+    z-index: 15;   
+}
+.mostrandont{
+    
+    height: 8.5rem;
+    width: 8rem;
+    border-radius: 10px;
+    object-fit:fill;
+    opacity: 0;
+   position: relative;
+    z-index: 5;   
+}
+.nover{
+    background-color: transparent;  
+    border-radius: 1rem;
+    margin: auto;
+    padding:1.8rem;
+    min-height: 25rem;  
+    width: 40rem;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 1rem;  
+}
+.nover div{
+    background-color: transparent;
+    height: 8.5rem;
+    width: 8rem;
+    position: relative;
+    top: -40.7rem;   
+    z-index: 10;
+}
+.vjuegoinv{
+    background-color: #000;
+    width: 40rem;
+    margin: auto;
+}
+.vjuego{
+    background-color: #113148;
+    color: #fff;
+    height: 15rem;
+    width: 15rem;
+    border: double 1px #000;
+    position: relative;
+    top: -69rem;
+    font-size: larger;
+    z-index: -1;
+    left: -15.2rem;
+    border-radius:2rem;
+    box-shadow: -3px 8px 25px 5px #000;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+
+    
+
+@keyframes aparecer {
+    0%{
+        opacity: 0;
+    }    
+    100%{
+        opacity: 1;
+    }
+    
+}
+@keyframes desaparecer {
+    0%{
+        opacity: 1;
+        translate: 1.2px 0;
+        border: solid 1px rgb(164, 29, 29);
+    }    
+    25%{
+        opacity: 1;
+        translate: -1.2px 0;
+        border: solid 1px  rgb(164, 29, 29);
+    }
+    50%{
+        opacity: 0.9;
+        translate: 1.2px 0;    
+    }
+    75%{
+        opacity: 0.9;
+        translate: -1.2px 0;
+    }
+    100%{
+        opacity: 0;
+    }
+    
+}
+@keyframes acertaste{
+    0%{
+        border: double 2px #16252f;
+        opacity: 1;
+        transform: scale(1.1);
+    }
+    50%{
+        border: double 2px #16252f;
+        transform: scale(1.2);
+        opacity: 1;
+    }
+    100%{
+        opacity: 1;
+        border: double 1px #2F4858;
+        transform: scale(1);
+    }
+}
