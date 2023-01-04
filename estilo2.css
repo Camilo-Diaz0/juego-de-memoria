@@ -13,8 +13,15 @@ body{
     font-size: 1.3rem;
     text-shadow: black 0.2em 0.2em 0.7em;
 }
+.grancontenedor{
+    margin: auto;
+    min-height: 25rem;  
+    width: 44rem;
+    position: relative;
+}
 .contenedor{
     background-color: #99CCF5;
+    position: relative;
     border-radius: 1rem;
     border: double 2px #2F4858;
     box-shadow: 6px 15px 25px 2px;
@@ -77,28 +84,25 @@ body{
     top: -40.7rem;   
     z-index: 10;
 }
-.vjuegoinv{
-    background-color: #000;
-    width: 40rem;
-    margin: auto;
-}
+
 .vjuego{
     background-color: #113148;
     color: #fff;
     height: 15rem;
     width: 15rem;
-    border: double 1px #000;
-    position: relative;
-    top: -69rem;
+    text-align: center;
+    position: absolute;
+    top: 13rem;
     font-size: larger;
     z-index: -1;
-    left: -15.2rem;
+    left: -14.2rem;
     border-radius:2rem;
     box-shadow: -3px 8px 25px 5px #000;
     display: flex;
-    text-align: center;
     flex-direction: column;
-    justify-content: space-evenly;
+    justify-content: center;
+    gap: 1.5rem;
+    text-shadow: black 0.2em 0.2em 0.7em;
 }
 
 
