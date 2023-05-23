@@ -4,28 +4,28 @@ const subirImg = (num) => {
     const addCards = document.querySelector(".contenedor")
     switch(num){
         case "card1":
-            addCards.innerHTML += `<div><img src="../fotos.S/spiderman.jpg" class="mostrando ${num}"</div>`;
+            addCards.innerHTML += `<div><img src="imagenes/spiderman.jpg" class="mostrando ${num}"</div>`;
             break;
         case "card2":
-            addCards.innerHTML += `<div><img src="../fotos.S/Zatana.jpg" class="mostrando ${num}"></div>`;
+            addCards.innerHTML += `<div><img src="imagenes/Zatana.jpg" class="mostrando ${num}"></div>`;
             break;   
         case "card3":
-            addCards.innerHTML += `<div><img src="../fotos.S/ironman.jpg" class="mostrando ${num}"></div>`;
+            addCards.innerHTML += `<div><img src="imagenes/ironman.jpg" class="mostrando ${num}"></div>`;
             break;   
         case "card4":
-            addCards.innerHTML += `<div><img src="../fotos.S/capitan-america.jpg" class="mostrando ${num}"></div>`;
+            addCards.innerHTML += `<div><img src="imagenes/capitan-america.jpg" class="mostrando ${num}"></div>`;
             break;
         case "card5":
-            addCards.innerHTML += `<div><img src="../fotos.S/Wonder.jpg" class="mostrando ${num}"></div>`;
+            addCards.innerHTML += `<div><img src="imagenes/Wonder.jpg" class="mostrando ${num}"></div>`;
             break;
         case "card6":
-            addCards.innerHTML += `<div><img src="../fotos.S/superman.jpg" class="mostrando ${num}"></div></div>`;
+            addCards.innerHTML += `<div><img src="imagenes/superman.jpg" class="mostrando ${num}"></div></div>`;
             break;
         case "card7":
-            addCards.innerHTML += `<div><img src="../fotos.S/batman.jpg" class="mostrando ${num}"></div>`;
+            addCards.innerHTML += `<div><img src="imagenes/batman.jpg" class="mostrando ${num}"></div>`;
             break;
         case "card8":
-            addCards.innerHTML += `<div><img src="../fotos.S/green.jpg" class="mostrando ${num}"></div>`;
+            addCards.innerHTML += `<div><img src="imagenes/green.jpg" class="mostrando ${num}"></div>`;
             break;                
         }                                   
 
